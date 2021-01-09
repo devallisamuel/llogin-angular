@@ -1,0 +1,69 @@
+
+.title  {
+    color: white;
+}
+input{
+    display: block;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: cadetblue
+}
+button  {
+    display: block;
+    margin-top: 1rem; 
+    width: 20rem;  
+    height: 2rem;
+    border-radius: 1rem;
+}
+a   {
+    text-decoration: none;
+    color: #E5E5E5;
+}
+.link-path, .links  {
+    display: inline-block;
+    width: 30rem;
+    margin-top: 5rem;
+}
+.sign-in, .sign-up  {
+    width: 50%;
+    float: left;
+}
+.home-div   {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    color:white;
+    background-image: url(./images/sign-in.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.blue, .green   {
+    display: flex;
+    justify-content: center;
+}
+.input    {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-details   {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.blue-button   {
+    background-color: blue;
+}
+.green-button   {
+    background-color: greenyellow;
+}
